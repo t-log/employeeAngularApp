@@ -8,13 +8,14 @@ import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { Route, RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchEmployeeComponent } from './search-employee/search-employee.component';
+import { EmployeeDeleteComponent } from './employee-delete/employee-delete.component';
 
 const myRoute:Routes= [
   {path:"",component:AdminLoginComponent},
   {path:"add",component:AddEmployeeComponent},
   // {path:"view",component:},
   {path:"search",component:SearchEmployeeComponent},
-  // {path:"delete",component:}
+  {path:"delete",component:EmployeeDeleteComponent}
 ]
 
 @NgModule({
@@ -24,6 +25,7 @@ const myRoute:Routes= [
     AddEmployeeComponent,
     NavbarComponent,
     SearchEmployeeComponent,
+    EmployeeDeleteComponent,
 
   ],
   imports: [
