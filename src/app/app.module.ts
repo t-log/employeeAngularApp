@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { Route, RouterModule, Routes } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoute:Routes= [
   {path:"",component:AdminLoginComponent},
@@ -20,6 +21,7 @@ const myRoute:Routes= [
     AppComponent,
     AdminLoginComponent,
     AddEmployeeComponent,
+    NavbarComponent,
 
   ],
   imports: [
