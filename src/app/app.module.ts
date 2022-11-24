@@ -7,12 +7,13 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { Route, RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SearchEmployeeComponent } from './search-employee/search-employee.component';
 
 const myRoute:Routes= [
   {path:"",component:AdminLoginComponent},
   {path:"add",component:AddEmployeeComponent},
   // {path:"view",component:},
-  // {path:"search",component:},
+  {path:"search",component:SearchEmployeeComponent},
   // {path:"delete",component:}
 ]
 
@@ -22,6 +23,7 @@ const myRoute:Routes= [
     AdminLoginComponent,
     AddEmployeeComponent,
     NavbarComponent,
+    SearchEmployeeComponent,
 
   ],
   imports: [
