@@ -9,7 +9,6 @@ import { Route, RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchEmployeeComponent } from './search-employee/search-employee.component';
 import { EmployeeDeleteComponent } from './employee-delete/employee-delete.component';
-import { ViewAllEmployeesComponent } from './view-all-employees/view-all-employees.component';
 import { EmployeeViewComponent } from './employee-view/employee-view.component';
 import { FormsModule } from '@angular/forms';
 
@@ -29,7 +28,6 @@ const myRoute:Routes= [
     NavbarComponent,
     SearchEmployeeComponent,
     EmployeeDeleteComponent,
-    ViewAllEmployeesComponent,
     EmployeeViewComponent,
 
   ],
