@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class EmployeeDeleteComponent {
 
+  empCode = ""
+  empDelete = () =>
+  {
+    let empData:any = {"empCode":this.empCode}
+    console.log(empData)
+  }
+
 }
