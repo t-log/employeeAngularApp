@@ -12,7 +12,7 @@ export class AddEmployeeComponent {
   salary = ""
   company = ""
 
-  viewAll = () =>
+  addEmp = () =>
   {
     let data:any = {
       "name":this.name,
