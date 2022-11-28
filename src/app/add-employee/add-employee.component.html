@@ -5,35 +5,23 @@
             <div class="row g-3">
                 <h5>Add Employee</h5>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" class="form-label">Employee Code:</label>
-                    <input type="number" class="form-control" name="" id="">
-                </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" class="form-label">Name:</label>
-                    <input type="text" class="form-control" name="" id="">
+                    <label for="" class="form-label">Employee Name:</label>
+                    <input  type="text" class="form-control" name="name" [(ngModel)]="name" id="">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" class="form-label">Designation:</label>
-                    <input type="text" class="form-control" name="" id="">
+                    <input type="text" class="form-control" name="designation" [(ngModel)]="designation" id="">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" class="form-label">Salary:</label>
-                    <input type="text" class="form-control" name="" id="">
+                    <input type="text" class="form-control" name="salary" [(ngModel)]="salary" id="">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" class="form-label">Phone No:</label>
-                    <input type="number" class="form-control" name="" id="">
-                </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" class="form-label">Email:</label>
-                    <input type="email" class="form-control" name="" id="">
-                </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" class="form-label">Years of Experience:</label>
-                    <input type="number" class="form-control" name="" id="">
+                    <label for="" class="form-label">Company:</label>
+                    <input type="text" class="form-control" name="company" [(ngModel)]="company" id="">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-12">
-                    <a class="btn btn-primary">Add Employee</a>
+                    <button class="btn btn-success" (click)="viewAll()">Add</button>
                 </div>
             </div>
         </div>
