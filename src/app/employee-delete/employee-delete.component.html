@@ -6,10 +6,10 @@
                 <h5>Employee Delete</h5>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" class="form-label">Employee Code:</label>
-                    <input type="number" class="form-control" name="" id="">
+                    <input [(ngModel)]="empCode"  type="number" class="form-control" name="empCode" id="">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-12">
-                    <button class="btn btn-danger">Delete</button>
+                    <button (click)="empDelete()" class="btn btn-danger">Delete</button>
                 </div>
             </div>
         </div>
